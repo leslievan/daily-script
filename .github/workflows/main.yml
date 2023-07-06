@@ -26,7 +26,7 @@ jobs:
 
     - name: Build Executable
       run: |
-        pyinstaller --onefile fund_query.py
+        pyinstaller --onefile --hidden-import=requests query.py
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v2
