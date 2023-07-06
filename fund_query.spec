@@ -8,7 +8,7 @@ a = Analysis(
     ['fund_query.py'],
     pathex=[],
     binaries=[],
-    datas=[('code.txt', '.')],
+    datas=[],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
