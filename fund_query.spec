@@ -43,6 +43,7 @@ coll = COLLECT(
     a.binaries,
     a.zipfiles,
     a.datas,
+    exclude_binaries=False,
     strip=False,
     upx=True,
     upx_exclude=[],
